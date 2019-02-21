@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>menus/shapeselect/ellipse_selected.png</file>
+        <file>menus/shapeselect/ellipse_unselected.png</file>
+        <file>menus/shapeselect/line_selected.png</file>
+        <file>menus/shapeselect/line_unselected.png</file>
+        <file>menus/shapeselect/polygon_selected.png</file>
+        <file>menus/shapeselect/polygon_unselected.png</file>
+        <file>menus/shapeselect/polyline_selected.png</file>
+        <file>menus/shapeselect/polyline_unselected.png</file>
+        <file>menus/shapeselect/rectangle_selected.png</file>
+        <file>menus/shapeselect/rectangle_unselected.png</file>
+        <file>menus/shapeselect/text_selected.png</file>
+        <file>menus/shapeselect/text_unselected.png</file>
+    </qresource>
+</RCC>

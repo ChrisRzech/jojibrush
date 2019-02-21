@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ShapeSelectMenu</class>
+ <widget class="QWidget" name="ShapeSelectMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>130</width>
+    <height>120</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>111</width>
+     <height>100</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="horizontalLayout">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QPushButton" name="pushButtonLine">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/line_unselected.png</normaloff>:/res/menus/shapeselect/line_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonPolyline">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/polyline_unselected.png</normaloff>:/res/menus/shapeselect/polyline_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonPolygon">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/polygon_unselected.png</normaloff>:/res/menus/shapeselect/polygon_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout_2">
+      <item>
+       <widget class="QPushButton" name="pushButtonRectangle">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/rectangle_unselected.png</normaloff>:/res/menus/shapeselect/rectangle_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonEllipse">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/ellipse_unselected.png</normaloff>:/res/menus/shapeselect/ellipse_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButtonText">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgba(255, 255, 255, 0);
+background-color: rgba(255, 255, 255, 0);
+selection-color: rgba(255, 255, 255, 0);
+selection-background-color: rgba(255, 255, 255, 0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset resource="../menus.qrc">
+          <normaloff>:/res/menus/shapeselect/text_unselected.png</normaloff>:/res/menus/shapeselect/text_unselected.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>20</width>
+          <height>20</height>
+         </size>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../menus.qrc"/>
+ </resources>
+ <connections/>
+</ui>

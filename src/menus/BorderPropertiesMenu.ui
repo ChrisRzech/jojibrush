@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BorderPropertiesMenu</class>
+ <widget class="QWidget" name="BorderPropertiesMenu">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>200</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>260</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>260</width>
+    <height>200</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>Dubai</family>
+    <pointsize>9</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>262</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_3">
+    <item>
+     <widget class="QLabel" name="label_title">
+      <property name="minimumSize">
+       <size>
+        <width>260</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>260</width>
+        <height>25</height>
+       </size>
+      </property>
+      <property name="font">
+       <font>
+        <family>Dubai Medium</family>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Border Properties</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignBottom|Qt::AlignRight|Qt::AlignTrailing</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_2">
+        <property name="sizeConstraint">
+         <enum>QLayout::SetDefaultConstraint</enum>
+        </property>
+        <item>
+         <widget class="QLabel" name="label_color">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Medium</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Color</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_color</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_weight">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Medium</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Weight</string>
+          </property>
+          <property name="buddy">
+           <cstring>spinBox_weight</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_style">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Medium</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Style</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_style</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_cap">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Medium</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Cap</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_cap</cstring>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLabel" name="label_join">
+          <property name="minimumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>50</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Medium</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="text">
+           <string>Join</string>
+          </property>
+          <property name="buddy">
+           <cstring>comboBox_join</cstring>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QComboBox" name="comboBox_color">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Light</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>black</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>white</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>red</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>green</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>blue</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>cyan</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>magenta</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>yellow</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>gray</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QSpinBox" name="spinBox_weight">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Light</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <property name="minimum">
+           <number>1</number>
+          </property>
+          <property name="maximum">
+           <number>100</number>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_style">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Light</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>SolidLine</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>NoPen</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DashLine</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DotLine</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DashDotLine</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>DashDotDotLine</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_cap">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Light</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>FlatCap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>SquareCap</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RoundCap</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+        <item>
+         <widget class="QComboBox" name="comboBox_join">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="minimumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>190</width>
+            <height>25</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Dubai Light</family>
+            <pointsize>9</pointsize>
+           </font>
+          </property>
+          <item>
+           <property name="text">
+            <string>MiterJoin</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>BevelJoin</string>
+           </property>
+          </item>
+          <item>
+           <property name="text">
+            <string>RoundJoin</string>
+           </property>
+          </item>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

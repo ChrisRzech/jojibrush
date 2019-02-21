@@ -24,75 +24,64 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 
 SOURCES += \
-        main.cpp \
-        mainwindow.cpp \
-        utils/algorithms.cpp \
-        utils/exceptions.cpp \
-        utils/FileHandler.cpp \
-        Canvas.cpp \
-        loginwindow.cpp \
-        shapes/Shape.cpp \
-        shapes/GeometricShape.cpp \
-        shapes/FilledShape.cpp \
-        shapes/Rectangle.cpp \
-        shapes/Circle.cpp \
-        shapes/Ellipse.cpp \
-        shapes/Polygon.cpp \
-        shapes/Line.cpp \
-        shapes/Polyline.cpp \
-        shapes/Text.cpp \
-        AboutUs.cpp \
-        menus/FilledPropertiesMenu.cpp \
-        menus/GeometricPropertiesMenu.cpp \
-        menus/shapeselectmenu.cpp \
-        menus/TextPropertiesMenu.cpp \
-        menus/AllPropertiesMenu.cpp
+    src/main.cpp \
+    src/Canvas.cpp \
+    src/account.cpp \
+    src/windows/login.cpp \
+    src/windows/mainwindow.cpp \
+    src/windows/aboutus.cpp \
+    src/utils/exceptions.cpp \
+    src/utils/filehandler.cpp \
+    src/shapes/Shape.cpp \
+    src/shapes/GeometricShape.cpp \
+    src/shapes/FilledShape.cpp \
+    src/shapes/Rectangle.cpp \
+    src/shapes/Ellipse.cpp \
+    src/shapes/Polygon.cpp \
+    src/shapes/Line.cpp \
+    src/shapes/Polyline.cpp \
+    src/shapes/Text.cpp \
+    src/menus/ShapeSelectMenu.cpp \
+    src/menus/TextPropertiesMenu.cpp \
+    src/menus/PropertiesMenu.cpp \
+    src/menus/FillPropertiesMenu.cpp \
+    src/menus/BorderPropertiesMenu.cpp
 
 HEADERS += \
-        mainwindow.hpp \
-        utils/vector.hpp \
-        utils/algorithms.hpp \
-        utils/exceptions.hpp \
-        utils/FileHandler.hpp \
-        Canvas.hpp \
-        loginwindow.hpp \
-        shapes/Shapes.hpp \
-        shapes/Shape.hpp \
-        shapes/Properties.hpp \
-        shapes/GeometricShape.hpp \
-        shapes/FilledShape.hpp \
-        shapes/Rectangle.hpp \
-        shapes/Circle.hpp \
-        shapes/Ellipse.hpp \
-        shapes/Polygon.hpp \
-        shapes/Line.hpp \
-        shapes/Polyline.hpp \
-        shapes/Shapes.hpp \
-        shapes/Polygon.hpp \
-        shapes/Shape.hpp \
-        shapes/Text.hpp \
-        utils/exceptions.hpp \
-        loginwindow.hpp \
-        utils/FileHandler.hpp \
-        utils/algorithms.hpp \
-        AccountType.hpp \
-        AboutUs.hpp \
-        menus/FilledPropertiesMenu.hpp \
-        menus/GeometricPropertiesMenu.hpp \
-        menus/shapeselectmenu.hpp \
-        menus/TextPropertiesMenu.hpp \
-    menus/AllPropertiesMenu.hpp
+    src/Canvas.hpp \
+    src/account.hpp \
+    src/windows/login.hpp \
+    src/windows/mainwindow.hpp \
+    src/windows/aboutus.hpp \
+    src/utils/exceptions.hpp \
+    src/utils/filehandler.hpp \
+    src/utils/constants.hpp \
+    src/shapes/Shape.hpp \
+    src/shapes/GeometricShape.hpp \
+    src/shapes/FilledShape.hpp \
+    src/shapes/Rectangle.hpp \
+    src/shapes/Ellipse.hpp \
+    src/shapes/Polygon.hpp \
+    src/shapes/Line.hpp \
+    src/shapes/Polyline.hpp \
+    src/shapes/Text.hpp \
+    src/menus/ShapeSelectMenu.hpp \
+    src/menus/TextPropertiesMenu.hpp \
+    src/menus/PropertiesMenu.hpp \
+    src/menus/FillPropertiesMenu.hpp \
+    src/menus/BorderPropertiesMenu.hpp
 
 FORMS += \
-        mainwindow.ui \
-        loginwindow.ui \
-        aboutus.ui \
-        filledpropsmenu.ui \
-        geopropsmenu.ui \
-        shapeselectmenu.ui \
-        textpropsmenu.ui \
-        allpropsmenu.ui
+    src/windows/mainwindow.ui \
+    src/windows/aboutus.ui \
+    src/windows/login.ui \
+    src/menus/ShapeSelectMenu.ui \
+    src/menus/TextPropertiesMenu.ui \
+    src/menus/PropertiesMenu.ui \
+    src/menus/FillPropertiesMenu.ui \
+    src/menus/BorderPropertiesMenu.ui
 
 RESOURCES += \
-        login.qrc \
-        global.qrc
+    res/login.qrc \
+    res/global.qrc \
+    res/menus.qrc

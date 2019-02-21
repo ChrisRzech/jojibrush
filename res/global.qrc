@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>global/icons/giantlogo.png</file>
+        <file>global/icons/logo.png</file>
+    </qresource>
+</RCC>

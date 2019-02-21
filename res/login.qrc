@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>login/auth.txt</file>
+        <file>login/image/dark.png</file>
+        <file>login/image/nani.png</file>
+        <file>login/image/normal.png</file>
+    </qresource>
+</RCC>
