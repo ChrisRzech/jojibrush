@@ -21,7 +21,7 @@
    <string>About Us</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="global.qrc">
+   <iconset resource="../../res/global.qrc">
     <normaloff>:/res/global/icons/logo.png</normaloff>:/res/global/icons/logo.png</iconset>
   </property>
   <property name="styleSheet">
@@ -80,7 +80,7 @@ background: white</string>
     <string/>
    </property>
    <property name="pixmap">
-    <pixmap resource="global.qrc">:/res/global/icons/giantlogo.png</pixmap>
+    <pixmap resource="../../res/global.qrc">:/res/global/icons/giantlogo.png</pixmap>
    </property>
    <property name="openExternalLinks">
     <bool>true</bool>
@@ -181,7 +181,7 @@ background: white</string>
   </widget>
  </widget>
  <resources>
-  <include location="global.qrc"/>
+  <include location="../../res/global.qrc"/>
  </resources>
  <connections/>
 </ui>

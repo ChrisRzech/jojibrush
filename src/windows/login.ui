@@ -14,7 +14,7 @@
    <string notr="true">Login</string>
   </property>
   <property name="windowIcon">
-   <iconset resource="../global.qrc">
+   <iconset resource="../../res/global.qrc">
     <normaloff>:/res/global/icons/logo.png</normaloff>:/res/global/icons/logo.png</iconset>
   </property>
   <widget class="QLabel" name="label_logo">
@@ -155,7 +155,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../global.qrc"/>
+  <include location="../../res/global.qrc"/>
  </resources>
  <connections/>
 </ui>
