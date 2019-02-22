@@ -10,6 +10,7 @@ ShapeSelectMenu::ShapeSelectMenu(QWidget *parent)
 
     /* Initial shape */
     m_selected = ShapeType::LINE;
+    m_ui->pushButtonLine->setIcon(QIcon(":/res/menus/shapeselect/line_selected.png"));
 }
 
 /* Destructor */
