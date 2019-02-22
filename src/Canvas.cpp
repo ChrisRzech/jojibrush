@@ -1,6 +1,7 @@
 #include "Canvas.hpp"
 #include "utils/exceptions.hpp"
 #include "utils/filehandler.hpp"
+#include <QDebug> //TODO remove
 
 namespace jbrush
 {
@@ -130,19 +131,24 @@ void Canvas::updateBorderProperties(BorderProperties props)
     switch(m_type)
     {
     case constants::ShapeType::LINE:
-        m_line->setBorderProps(props);
+        if(m_line != nullptr)
+            m_line->setBorderProps(props);
         break;
     case constants::ShapeType::RECTANGLE:
-        m_rect->setBorderProps(props);
+        if(m_rect != nullptr)
+            m_rect->setBorderProps(props);
         break;
     case constants::ShapeType::ELLIPSE:
-        m_ellipse->setBorderProps(props);
+        if(m_ellipse != nullptr)
+            m_ellipse->setBorderProps(props);
         break;
     case constants::ShapeType::POLYGON:
-        m_polygon->setBorderProps(props);
+        if(m_polygon != nullptr)
+            m_polygon->setBorderProps(props);
         break;
     case constants::ShapeType::POLYLINE:
-        m_polyline->setBorderProps(props);
+        if(m_polyline != nullptr)
+            m_polyline->setBorderProps(props);
         break;
     default:
         break;
@@ -158,13 +164,16 @@ void Canvas::updateFillProperties(FillProperties props)
     switch(m_type)
     {
     case constants::ShapeType::RECTANGLE:
-        m_rect->setFillProps(props);
+        if(m_rect != nullptr)
+            m_rect->setFillProps(props);
         break;
     case constants::ShapeType::ELLIPSE:
-        m_ellipse->setFillProps(props);
+        if(m_ellipse != nullptr)
+            m_ellipse->setFillProps(props);
         break;
     case constants::ShapeType::POLYGON:
-        m_polygon->setFillProps(props);
+        if(m_polygon != nullptr)
+            m_polygon->setFillProps(props);
         break;
     default:
         break;
@@ -176,7 +185,10 @@ void Canvas::updateFillProperties(FillProperties props)
 void Canvas::updateTextProperties(TextProperties props)
 {
     m_textProps = props;
-    m_text->setTextProps(props);
+
+    if(m_text != nullptr)
+        m_text->setTextProps(props);
+
     repaint();
 }
 
